@@ -1,0 +1,15 @@
+# define a function to read data from the given file and return the mean and variance of the column "TOTAL" calculated from the sum of the columns "TOTAL A" and "TOTAL B"
+// # print the mean and variance
+# write a function to test get_mean_and_variance with the file reference.csv and the expected mean, 5, and variance, 11
+// # call the test function
+# Create a variable SCRIPT_DIR with the absolute path to the directory containing this script using Path from the pathlib package
+# Get the mean and variance for the file "WHO_NREVSS_Clinical_Labs.csv" in the data directory above this one
+// Use """ to prompt Copilot to suggest a docstring for each function
+
+
+# load the data from the file "WHO_NREVSS_Clinical_Labs.csv" using Pandas, skipping the first line
+# aggregate the columns "TOTAL A" and "TOTAL B" into a new column "TOTAL"
+# calculate the mean and variance of the column "TOTAL" by WEEK
+# use matplot lib to plot the mean by week
+# Create a variable SCRIPT_DIR with the absolute path to the directory containing this script using Path from the pathlib package
+# save the plot to a .PNG file in SCRIPT_DIR

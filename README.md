@@ -25,6 +25,9 @@ Sample code for the IDM Spring 2023 disease modeling symposium.
 3. calculate mean and variance
 4. implement test
 5. run test on reference data
+6. calculate mean by week
+7. plot with `matplotlib`
+8. save to `.png` file
 
 ## Notes
 
