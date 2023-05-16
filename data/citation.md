@@ -1,1 +1,2 @@
-data from https://www.malariagen.net/parasite/pf3k
+- X_ref and X_nref data from https://www.malariagen.net/parasite/pf3k
+- WHO_NREVSS_Clinical_Labs.csv downloaded from https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html
