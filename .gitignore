@@ -1,0 +1,5 @@
+# Ignore the file reference.mat in the python directory
+python/reference.mat
+
+# Ignore .png files in the copilot directory
+copilot/*.png
