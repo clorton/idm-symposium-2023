@@ -17,7 +17,7 @@ sir <- function(s0, i0, r0, beta, gamma, days) {
     r[t] <- r[t-1] + gamma * i[t-1]
   }
   # return the results
-  total = s0 + i0 + r0
+  total <- s0 + i0 + r0
   return(list(s=s/total, i=i/total, r=r/total))
 }
 
@@ -37,3 +37,5 @@ plot_sir <- function(sir, title) {
 # run the model for 150 days with infection rate of 2.5/6/1000, recovery rate of 1/6 and an initial population of 1000
 sir1 <- sir(1000, 1, 0, 2.5/6/1000, 1/6, 150)
 plot_sir(sir1, "SIR Model with R0=2.5")
+
+q()
