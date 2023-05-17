@@ -3,3 +3,6 @@ python/reference.mat
 
 # Ignore .png files in the copilot directory
 copilot/*.png
+
+# Ignore *.png files (Python or R output) in the root directory
+*.png
