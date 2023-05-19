@@ -1,8 +1,14 @@
-# idm-symposium-2023
+# AI Assisted Coding - IDM Spring 20233 Symposium
 
-Sample code for the IDM Spring 2023 disease modeling symposium.
+## Setup
 
-## Explain, Refactor, Optimize, and Test MATLAB Code
+1) Make sure you have an account with [ChatGPT](https://openai.com/product/chatgpt) ($0)
+2) Login to or sign up for a [GitHub](https://github.com) account ($0)
+3) Create a fork of the [breakout session materials repository](https://github.com/clorton/idm-symposium-2023)<br>![fork](/media/fork.png)
+4) Start up a [codespace](https://github.com/codespaces) for editing and running the code<br>![codespace](/media/codespace.png)<br>Select your fork of the session repository<br>![repository](/media/repository.png)<br>Bump system specs to 4-core 8GB RAM<br>![machine](/media/machine.png)
+
+
+## Explain, Refactor, Optimize, and Test MATLAB Code (matlab folder)
 
 1. original
 2. refactored into function
@@ -18,7 +24,7 @@ Sample code for the IDM Spring 2023 disease modeling symposium.
 4. test translation
 5. fix translation
 
-## Live Coding with Copilot
+## Live Coding with Copilot/ChatGPT
 
 1. load `.csv` file
 2. aggregate case counts for type A and type B
@@ -35,20 +41,24 @@ Sample code for the IDM Spring 2023 disease modeling symposium.
 2. prompt for function to run model
 3. prompt for function invoke model and plot results
 
-## Notes
+## Resources
 
 ### Example Code Repository
 
-[clorton/idm-symposium-2023](https://github.com/clorton/idm-symposium-2023)
+This repository [clorton/idm-symposium-2023](https://github.com/clorton/idm-symposium-2023)
 
 ### Octave in GitHub Codespace
 
+Takes about 5 minutes to install. Note that there is a prompt you must respond to about ½ way through the installation.
+
 ```bash
 sudo apt update
-sudo apt-get install octave
+sudo apt-get install -y octave
 ```
 
 ## Install R in GitHub Codespace
+
+Takes about 5 minutes to install.
 
 [instructions](https://cran.rstudio.com/bin/linux/ubuntu)
 

@@ -5,4 +5,6 @@ python/reference.mat
 copilot/*.png
 
 # Ignore *.png files (Python or R output) in the root directory
-*.png
+/*.png
+seir.png
+SIR*png
