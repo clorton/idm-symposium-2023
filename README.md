@@ -1,4 +1,4 @@
-# AI Assisted Coding - IDM Spring 20233 Symposium
+# <p style="text-align: center;">AI Assisted Coding - IDM Spring 2023 Symposium</p>
 
 ## Setup
 
@@ -7,8 +7,11 @@
 3) Create a fork of the [breakout session materials repository](https://github.com/clorton/idm-symposium-2023)<br>![fork](/media/fork.png)
 4) Start up a [codespace](https://github.com/codespaces) for editing and running the code<br>![codespace](/media/codespace.png)<br>Select your fork of the session repository<br>![repository](/media/repository.png)<br>Bump system specs to 4-core 8GB RAM<br>![machine](/media/machine.png)
 
+-----
 
-## Explain, Refactor, Optimize, and Test MATLAB Code (matlab folder)
+# <p style="text-align: center;">Activities</p>
+
+## Explain, Refactor, Optimize, and Test MATLAB Code (`matlab` folder)
 
 1. original
 2. refactored into function
@@ -16,7 +19,7 @@
 4. tested
 5. fixed
 
-## Translate MATLAB Code to Python
+## Translate MATLAB Code to Python (`python` folder)
 
 1. translated
 2. load from `.mat` files
@@ -24,7 +27,7 @@
 4. test translation
 5. fix translation
 
-## Live Coding with Copilot/ChatGPT
+## Live Coding with Copilot/ChatGPT (`copilot` folder)
 
 1. load `.csv` file
 2. aggregate case counts for type A and type B
@@ -35,13 +38,15 @@
 7. plot with `matplotlib`
 8. save to `.png` file
 
-## SEIR Model with Copilot
+## SEIR Model with Copilot (`model` folder)
 
 1. import numpy and matplotlib.pyplot
 2. prompt for function to run model
 3. prompt for function invoke model and plot results
 
-## Resources
+-----
+
+# <p style="text-align: center;">Resources</p>
 
 ### Example Code Repository
 
@@ -56,7 +61,7 @@ sudo apt update
 sudo apt-get install -y octave
 ```
 
-## Install R in GitHub Codespace
+### Install R in GitHub Codespace
 
 Takes about 5 minutes to install.
 
