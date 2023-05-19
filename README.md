@@ -40,6 +40,8 @@
 
 ## SEIR Model with Copilot (`model` folder)
 
+\*_Note:_ prompts in `prompts.txt`
+
 1. import numpy and matplotlib.pyplot
 2. prompt for function to run model
 3. prompt for function invoke model and plot results
@@ -54,7 +56,9 @@ This repository [clorton/idm-symposium-2023](https://github.com/clorton/idm-symp
 
 ### Octave in GitHub Codespace
 
-Takes about 5 minutes to install. Note that there is a prompt you must respond to about ½ way through the installation.
+Takes about 5 minutes to install. Note: about ½ way through the installation there is a prompt to which you must respond in order to continue the installation.
+
+(hover over the commands below to reveal the "copy" button in the upper right corner)
 
 ```bash
 sudo apt update
@@ -66,6 +70,8 @@ sudo apt-get install -y octave
 Takes about 5 minutes to install.
 
 [instructions](https://cran.rstudio.com/bin/linux/ubuntu)
+
+(hover over the commands below to reveal the "copy" button in the upper right corner)
 
 ```bash
 # update indices
@@ -82,6 +88,8 @@ sudo apt install --no-install-recommends r-base
 ```
 
 Additional steps for integration with GitHub Codespace:
+
+(hover over the commands below to reveal the "copy" button in the upper right corner)
 
 ```bash
 sudo /usr/bin/R --silent --slave --no-save --no-restore -e "install.packages('languageserver', repos='https://cloud.r-project.org/')"
