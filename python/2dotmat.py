@@ -24,8 +24,8 @@ X = mat_data['X']
 # Also remove _copy suffix on arrays.
 import scipy.io
 
-X_ref = scipy.io.loadmat('../data/X_ref.npy')['X']
-X_nref = scipy.io.loadmat('../data/X_nref.npy')['X']
+X_ref = scipy.io.loadmat('../data/X_ref.mat')['X']
+X_nref = scipy.io.loadmat('../data/X_nref.mat')['X']
 
 # Clean up some of the low counts
 
