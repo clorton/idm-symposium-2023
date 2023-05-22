@@ -4,8 +4,9 @@
 
 1) Make sure you have an account with [ChatGPT](https://openai.com/product/chatgpt)
 2) Login to or sign up for a [GitHub](https://github.com) account
-3) Create a fork of this [breakout session materials repository](https://github.com/clorton/idm-symposium-2023)<br>![fork](/media/fork.png)
-4) Start up a [codespace](https://github.com/codespaces) for editing and running the code (opening the link in a new window is recommended)<br>[![codespace](/media/codespace.png)](https://github.com/codespaces)<br>Select your fork of the session repository (try entering "symposium" to find your forked repository)<br>![repository](/media/repository.png)<br>Bump system specs to 4-core 8GB RAM<br>![machine](/media/machine.png)
+3) Create a fork of this [breakout session materials repository](https://github.com/clorton/idm-symposium-2023) (ETA < 60 seconds)<br>[![fork](/media/fork.png)](https://github.com/clorton/idm-symposium-2023)
+4) Start up a [codespace](https://github.com/codespaces) for editing and running the code (opening the link in a new window is recommended)<br>[![codespace](/media/codespace.png)](https://github.com/codespaces)<br>Select your fork of the session repository (try entering "symposium" to find your forked repository)<br>![repository](/media/repository.png)<br>Bump system specs to 4-core 8GB RAM<br>![machine](/media/machine.png)<br>ETA 10-15 seconds
+5) Navigate (on the left) to the `python` directory and double-click `5fixed.py`. Select install - note that this is installing into the remote codespace, _not_ onto your local computer.<br>![python extension](/media/python-extension.png)
 
 -----
 
