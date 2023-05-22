@@ -5,7 +5,7 @@
 1) Make sure you have an account with [ChatGPT](https://openai.com/product/chatgpt)
 2) Login to or sign up for a [GitHub](https://github.com) account
 3) Create a fork of this [breakout session materials repository](https://github.com/clorton/idm-symposium-2023)<br>![fork](/media/fork.png)
-4) Start up a [codespace](https://github.com/codespaces) for editing and running the code<br>![codespace](/media/codespace.png)<br>Select your fork of the session repository<br>![repository](/media/repository.png)<br>Bump system specs to 4-core 8GB RAM<br>![machine](/media/machine.png)
+4) Start up a [codespace](https://github.com/codespaces) for editing and running the code (opening the link in a new window is recommended)<br>[![codespace](/media/codespace.png)](https://github.com/codespaces)<br>Select your fork of the session repository (try entering "symposium" to find your forked repository)<br>![repository](/media/repository.png)<br>Bump system specs to 4-core 8GB RAM<br>![machine](/media/machine.png)
 
 -----
 
